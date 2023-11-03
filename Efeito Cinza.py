@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Abra a imagem
-imagem = Image.open("C://Users//Dell//Pictures//broly//broly.jpg")
+imagem = Image.open("C://Users//Dell//Pictures//jess//Nova pasta//jess.jpeg")
 
 # Obtenha as dimensões da imagem
 largura, altura = imagem.size
@@ -30,7 +30,7 @@ while y < altura:
     x = 0
 
 # Salve a imagem em preto e branco
-imagem_pb.save("imagem_pb.jpg")
+imagem_pb.save("magem_pb.jpg")
 
 # Feche a imagem original
 imagem.close()
